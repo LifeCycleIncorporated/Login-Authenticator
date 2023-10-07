@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921386421369",
+    "project_id": "login-authenticator-bfa08",
+    "storage_bucket": "login-authenticator-bfa08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921386421369:android:6acf2a8aa063855c5698a8",
+        "android_client_info": {
+          "package_name": "com.example.loginauthenticator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPFrU4Omlu_E0s6Xk5L0-oiScZZR-8-7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
