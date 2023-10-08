@@ -70,7 +70,7 @@ public class SingupActivity extends AppCompatActivity implements View.OnClickLis
             return;
         }
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-            singUpEmailEditText.setError("Enter an email address");
+            singUpEmailEditText.setError("Enter an valid email address");
             singUpEmailEditText.requestFocus();
             return;
         }
