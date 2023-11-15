@@ -78,7 +78,6 @@
             android:textColor="#ff22"
             android:background="@android:color/transparent"/>
 
-
     </LinearLayout>
 
 </LinearLayout>
