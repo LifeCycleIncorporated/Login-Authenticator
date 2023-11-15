@@ -15,6 +15,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class SingupActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -24,6 +25,7 @@ public class SingupActivity extends AppCompatActivity implements View.OnClickLis
 
     private FirebaseAuth mAuth;
 
+
     private ProgressBar progressBar;
 
     @SuppressLint("MissingInflatedId")
@@ -31,6 +33,7 @@ public class SingupActivity extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singup);
+
         mAuth = FirebaseAuth.getInstance();
 
 
@@ -46,6 +49,9 @@ public class SingupActivity extends AppCompatActivity implements View.OnClickLis
         singUpButton.setOnClickListener(this);
         singinButton.setOnClickListener(this);
     }
+
+
+
 
     @Override
     public void onClick(View view) {
