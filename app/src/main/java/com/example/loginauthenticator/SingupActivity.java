@@ -19,12 +19,12 @@ import com.google.firebase.auth.FirebaseAuth;
 public class SingupActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText singUpEmailEditText, singUpPasswordEditText;
+
     private Button singUpButton, singinButton;
 
     private FirebaseAuth mAuth;
 
     private ProgressBar progressBar;
-
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -32,6 +32,7 @@ public class SingupActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singup);
         mAuth = FirebaseAuth.getInstance();
+
 
         singUpEmailEditText = findViewById(R.id.singUpEmailEditTextId);
         singUpPasswordEditText = findViewById(R.id.singUpPasswordEditTextId);
