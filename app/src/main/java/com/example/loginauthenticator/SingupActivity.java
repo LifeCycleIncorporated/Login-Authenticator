@@ -25,10 +25,8 @@ public class SingupActivity extends AppCompatActivity implements View.OnClickLis
     private EditText nameEditText, ageEditText, singUpEmailEditText, singUpPasswordEditText;
 
     private Button singUpButton, singinButton;
-
     private FirebaseAuth mAuth;
     private ProgressBar progressBar;
-
     DatabaseReference databaseReference;
     @SuppressLint("MissingInflatedId")
     @Override
