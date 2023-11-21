@@ -79,5 +79,10 @@
             android:background="@android:color/transparent"/>
 
     </LinearLayout>
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/mainProgressId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

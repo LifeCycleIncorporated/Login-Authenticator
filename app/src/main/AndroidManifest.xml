@@ -18,6 +18,9 @@
         android:theme="@style/Theme.LoginAuthenticator"
         tools:targetApi="31">
         <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".SingupActivity"
             android:exported="false" />
         <activity
